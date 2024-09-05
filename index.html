@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Schedule</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="299092_calendar_icon.png" type="image/png">
+
+
+</head>
+
+<body>
+
+    <div class="table-container">
+        <h2 class="table-title">CLASS SCHEDULE</h2>
+        <table class="styled-table">
+            <tr class="border-row">
+                <td class="coursecode">COURSE CODE</td>
+                <td class="descriptivetitle">DESCRIPTIVE TITLE</td>
+                <td class="section">SECTION</td>
+                <td class="day">DAY</td>
+                <td>TIME</td>
+                <td class="room">ROOM</td>
+                <td class="creditunits">CREDIT UNITS</td>
+            </tr>
+
+            <!-- SUBJECT 1 -->
+            <tr>
+                <td>CITE 001</td>
+                <td>Introduction to Computing</td>
+                <td>IT11S2</td>
+                <td>Monday <br>
+                    <hr> Wednesday
+                </td>
+                <td class="time">07:30 AM - 09:30 AM <br>
+                    <hr> 07:30 AM - 10:30 AM
+                </td>
+                <td>A-211 <br>
+                    <hr> A-205
+                </td>
+                <td>3.0</td>
+            </tr>
+
+            <!-- SUBJECT 2 -->
+            <tr>
+                <td>CITE 002</td>
+                <td>Computer Programming 1</td>
+                <td>IT11S2</td>
+                <td>Friday</td>
+                <td class="time">07:30 AM - 10:30 AM <br>
+                    <hr> 12:30 PM - 2:30 PM
+                </td>
+                <td>A-205 <br>
+                    <hr> A-211
+                </td>
+                <td>3.0</td>
+            </tr>
+
+            <!-- SUBJECT 3, 4, and 5 -->
+            <!-- we applied rowspan to combine the repeated schedule day and room -->
+            <tr>
+                <td>GEC 002</td>
+                <td>Readings in Philippine History</td>
+                <td>IT11S2</td>
+                <td rowspan="3" class="highlight-room">Tuesday <br> & <br> Thursday</td> <!-- Merge day cells for subjects 3, 4, and 5 -->
+                <td class="time">12:00 PM - 1:30 PM</td>
+                <td rowspan="3" class="highlight-day">SHS 401</td>
+                <td>3.0</td>
+            </tr>
+
+            <tr>
+                <td>GEC 004</td>
+                <td>Mathematics in the Modern World</td>
+                <td>IT11S2</td>
+                <td class="time">10:30 AM - 12:00 PM</td>
+                <td>3.0</td>
+            </tr>
+
+            <tr>
+                <td>MATH 022</td>
+                <td>Linear Algebra</td>
+                <td>IT11S2</td>
+                <td class="time">7:30 AM - 9:00 AM</td>
+                <td>3.0</td>
+            </tr>
+
+            <!-- SUBJECT 6 -->
+            <tr>
+                <td>NSTP 001</td>
+                <td>National Service Training Program</td>
+                <td>A6</td>
+                <td>Monday</td>
+                <td class="time">10:30 AM - 1:30 PM</td>
+                <td>Founders 6TH Floor</td>
+                <td>3.0</td>
+            </tr>
+
+            <!-- SUBJECT 7 -->
+            <tr>
+                <td>PE 001</td>
+                <td>Physical Activities Toward Health & Fitness 1 (PATHFit 1)</td>
+                <td>IT11S2</td>
+                <td>Wednesday</td>
+                <td class="time">11:30 AM - 01:30 PM</td>
+                <td>PE Center 1</td>
+                <td>2.0</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 Juan Miguel C. Morales. All rights reserved.</p>
+        <p>Background Image Credits: <a href="https://www.facebook.com/TIP1962official" target="_blank">Technological
+                Institute of the Philippines
+            </a></p>
+    </footer>
+
+</body>
+
+</html>
